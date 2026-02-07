@@ -18,7 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={`antialiased md:pl-[10vw] md:pr-[10vw] `}
+
       >
         <Header />
         {children}

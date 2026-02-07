@@ -1,0 +1,15 @@
+@keyframes ham-open {
+    from {}
+    to {
+        position: absolute;
+        height: 70%;
+        width: 95%;
+        padding-top: 1rem;
+        background-color: #ffff;
+        color: #0000;
+    }
+}
+
+.open-ham-cls{
+    animation: 2s linear infinite;
+}
